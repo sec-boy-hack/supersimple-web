@@ -1,0 +1,103 @@
+#login-modal{
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    background: #b30909;
+    padding: 10px 0px 20px 0;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+}
+.top-form{
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.top-form .close-modal{
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.login-form h2 {
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.login-form form input{
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+.login-form button{
+    padding: 12px 0;
+    width: 75%;
+    background: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 3px;
+    color:rgb(255, 255, 255);
+    margin: 10px auto;
+    cursor: pointer;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.background-img{
+    background-image: url('./garrett-parker-DlkF4-dbCOU-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+}
+.welcom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px 0;
+    animation: backcolor 1s linear infinite alternate;
+   
+}
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+
+}
+#haythem{
+    padding: 10px 1700px;
+    color: red;
+
+}
+

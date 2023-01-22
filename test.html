@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="background-img">~
+        <div id="haythem">
+        
+        <a id="login-show" aria-posinset="left" href="http://127.0.0.1:5500/test.html">login</a>
+        </div>
+    
+        <div id="login-modal">
+            <div class="modal">
+                <div class="top-form">
+                    <div class="close-modal">
+                        &#10006;
+                    </div>
+    
+                </div>
+                <div class="login-form">
+                    <h2>login with email</h2>
+                    <form action="">
+                        <input type="text" class="form-control" placeholder="email">
+                        <input type="password" class="form-control" placeholder="password">
+                        <button type="submit" class="submit-btn">login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="welcom">
+            <h1>WELCOM </h1>
+        
+        
+        </div>
+        
+        
+
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            $('#login-show').click(function(){
+              $('#login-modal').fadeIn().css("display","flex");
+
+            });
+
+            $('.close-modal').click(function(){
+              $('#login-modal').fadeOut();
+
+            });
+
+        });       
+</script>
+
+    
+     
+
+</body>
+</html>
